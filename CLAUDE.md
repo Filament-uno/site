@@ -32,8 +32,9 @@ by filament.uno itself; GitHub renders it.
 ## Working with issues
 
 - Issues cover every component, so the fix usually belongs in another repo. When you fix
-  something reported here, open the PR in the repository that owns the code and reference the issue with its
-  full form, e.g. `Fixes Filament-uno/site#15`, so GitHub closes it across repos.
+  something reported here, open the PR in the repository that owns the code and
+  reference the issue with its full form, e.g. `Fixes Filament-uno/site#15`, so GitHub
+  closes it across repos.
 - Labels in use today: `bug`, `iOS`. Most issues are unlabelled. If you add labels,
   prefer a small component set (`website`, `api`, `iOS`, `android`, `nfc`) plus a type
   (`bug`, `enhancement`).
