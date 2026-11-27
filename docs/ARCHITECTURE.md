@@ -18,9 +18,8 @@ every part of the product.
                   │  PR says "Fixes Filament-uno/site#N"
    ┌──────────────┼────────────────────┬──────────────────────┐
    ▼              ▼                    ▼                      ▼
-filament_uno     ios                android         swift_/android_openprinttag
-(Symfony site    (iOS app)          (Android app)   (NFC tag libraries used by
- + app API)                                           the apps)
+ website        iOS app            Android app          NFC tag libraries
+ + app API                                              (used by the apps)
 ```
 
 ## Contents
@@ -50,12 +49,9 @@ in quality and rarely include platform or version information.
 
 ## Connections
 
-- Inbound links: `filament_uno` home page (`templates/home/index.html.twig`) and the about
-  page text (`feedback.explain` in `translations/messages+intl-icu.en.xlf`).
-- The iOS app does not link here; the Android app links to the GitHub organisation
-  (`https://github.com/Filament-uno`) rather than to this repo.
-- Related channels: Discord (the site uses two different invite links, `nGFZQsqNx3` and
-  `kss49BPAxV`, worth unifying in `filament_uno`) and support@filament.uno.
+- Inbound links: the filament.uno home and about pages.
+- The mobile apps do not link here.
+- Related channels: Discord and support@filament.uno.
 
 ## Possible improvements
 
@@ -63,5 +59,4 @@ in quality and rarely include platform or version information.
    links to Discord and email) asking for component, platform, app version and steps.
 2. Introduce component labels and triage the unlabelled backlog.
 3. Fix README typos and say that app issues are welcome; optionally show the logo.
-4. Point the Android support link at `Filament-uno/site` and add a "Report an issue" link
-   in the iOS app.
+4. Add a "Report an issue" link in both mobile apps pointing here.
